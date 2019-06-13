@@ -114,7 +114,7 @@ function won {
 
 function check {
 	return $1
-} # ЕДИНИЦА ЭТО FALSE 
+} 
 declare -a board              #создание пустого индексируемого массива
 if [ -z $1 ] 
 then
